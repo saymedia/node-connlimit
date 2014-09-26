@@ -1,0 +1,20 @@
+{
+    "name": "connlimit",
+    "version": "0.0.1",
+    "description": "Artificially limit the number of open connections to a Node server",
+    "author": "Martin Atkins <mart@degeneration.co.uk>",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/saymedia/node-connlimit.git"
+    },
+    "main": "./connlimit.js",
+    "scripts": {
+        "test": "nodeunit tests/",
+        "lint": "jshint -c .jshintrc connlimit.js"
+    },
+    "devDependencies": {
+        "jshint": "2.1.11",
+        "nodeunit": "*",
+        "sinon": "*"
+    }
+}
